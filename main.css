@@ -1,0 +1,403 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: GothamProL;
+	background-image: url(images/bg.jpg);
+}
+
+.diff{
+	font-family: GothamProB;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 30px;
+}
+
+.diff2{
+	font-family: GothamProB;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 30px;
+	color: #fff;
+}
+
+.sliderov{
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.slidercapt{
+	margin: auto;
+}
+
+.imgfluid{
+	margin-bottom: 10px; 
+	width: 70%;
+}
+
+.map{
+	width: 100%;
+}
+
+.navbar {
+	position: fixed;
+	width: 100%;
+	background: #3e3636;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+}
+
+.logoholder{
+	position: relative;
+	width: 50%;
+	background-color: #3e3636;
+}
+
+.triangle{
+	position: relative;
+	border-right: 45px solid transparent;
+	border-bottom: 45px solid #fff;
+}
+
+.navbar-brand {
+	font-family: GothamProBc;
+	position: absolute;
+	margin-left: 10px;
+	color: #3e3636;
+	cursor: pointer;
+}
+
+.nav-link {
+	margin-right: lem;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.nav-link:visited {
+	margin-right: lem;
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.navbar-nav{
+	padding-bottom: 5px;
+}
+
+.nav-link:hover {
+	color: white;
+	font-family: GothamProBc;
+}
+
+.navbar-collapse {
+	justify-content: center;
+}
+
+.header {
+	background-image: url('images/header-background.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	height: 100vh;
+}
+
+.contentbg{
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.description{
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.{
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.homeheader {
+	top: 80%;
+	transform: translate(-10%, -35%);
+}
+
+.description h1 {
+	color: white;
+	font-family: GothamProM;
+}
+
+.description h2 {
+	color: white;
+	font-family: GothamProM;
+}
+
+.description p {
+	color: #fff;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.description button {
+	border: 1px solid #6ab446;
+	background: #6ab446;
+	border-radius: 0;
+	color: #fff;
+}
+
+.description button:h1over {
+	border: 1px solid #fff;
+	background: #fff;
+	color: #000;
+}
+
+.bannertitle{
+	size: 40px;
+}
+
+.features{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.contact{
+	width: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.profile{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+
+.profile iframe{
+	width: 70%;
+}
+
+.features .form-control,
+.features input {
+	border-radius: 0;
+}
+
+.features .btn {
+	background-color: #589b37;
+	border: 1px solid #589b37;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.columpad1{
+	padding: 40px;
+}
+
+.conmid{
+	position: relative;
+	margin: auto;
+}
+
+.reason{
+	position: relative;
+	padding: 40px;
+	color: #fff;
+	font-family: GothamPro;
+}
+
+.reason h2{
+	font-family: GothamProB;
+	color: white;
+}
+
+.reason img{
+	width: 80%;
+}
+
+.col-sm-12{
+	padding: 25px;
+}
+
+.row{
+	text-align: center;
+}
+
+.feature-title{
+	font-family: GothamProM;
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.features .btn:hover {
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+.tab {
+  overflow: hidden;
+  border: 0px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: #3e3636;
+  color: #fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #fff;
+  color: #3e3636;
+  font-family: GothamProB;
+}
+
+.tabcontent {
+  display: none;
+  padding: 15%;
+  background-color: #fff;
+  border: 0px solid #ccc;
+  border-top: none;
+  text-align: center;
+}
+
+.tabcontent h3{
+	font-family: GothamProB;
+}
+
+.carousel img{
+	object-fit: cover;
+	object-position: center; /* Center the image within the element */
+	max-height: 500px;
+}
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.page-footer ul{
+	list-style: none;
+	padding-left: 0;
+	text-align: left;
+}
+
+.page-footer li{
+	padding-bottom: 5px;
+}
+
+.page-footer p{
+	text-align: left;
+}
+
+.page-footer table{
+	margin: auto;
+	padding: auto;
+	width: 100%;
+	text-align: left;
+}
+
+.page-footer tr, td{
+	padding: 10px;
+}
+
+.page-footer a{
+	color: #fff;
+	cursor: pointer;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.page-footer a:hover{
+	font-family: GothamProB;
+}
+
+.page-footer i{
+	font-size: 18px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+
+	.description {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 30%;
+		transform: none;
+		text-align: center;
+	}
+
+	.logoholder{
+		width: 80%;
+	}
+
+	.description h1 {
+		font-size: 2em;
+	}
+
+	.description p {
+		font-size: 1.2rem;
+	}
+
+	.reason img{
+		width: 50%;
+	}
+
+	.features {
+		margin: 0;
+	}
+
+	.tabcontent{
+		margin-bottom: 50px;
+	}
+
+	.tab button{
+		font-size: 10px;
+	}
+
+	.page-footer ul{
+		text-align: center;
+	}
+
+	.page-footer p{
+		text-align: center;
+	}
+
+	.imgfluid{
+		width: 25%;
+	}
+}
