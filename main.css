@@ -185,6 +185,19 @@ body {
 	justify-content: center;
 }
 
+.context{
+	color: white;
+	padding: 20% 5% 20% 5%;
+}
+
+.context h3{
+	font-family: GothamProM;
+}
+
+.context p{
+	font-size: 20px;
+}
+
 .profile{
 	padding-bottom: 10px;
 	padding-top: 10px;
@@ -297,6 +310,14 @@ body {
 	object-fit: cover;
 	object-position: center; /* Center the image within the element */
 	max-height: 500px;
+}
+
+.conimax{
+	background-image: url(images/cs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 5px solid black;
 }
 
 .page-footer {
