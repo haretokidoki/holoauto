@@ -87,6 +87,14 @@ body {
 	font-size: 14px;
 }
 
+.highlight-a{
+	display: inline-block;
+}
+
+.highlight-b{
+	display: none;
+}
+
 .nav-link:visited {
 	margin-right: lem;
 	color: #fff;
@@ -138,6 +146,52 @@ body {
 	text-align: center;
 }
 
+.product-ban-name{
+	display: inline-block;
+    width: 100%;
+    margin-top: 45%;
+}
+
+.product-ban-name h3{
+	font-family: GothamProB;
+}
+
+.product-ban-desc{
+	display: inline-block;
+	font-size: 12px;
+}
+
+.product-holder .product-ban-name{
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.prone{
+	color: white;
+	font-family: GothamProB;
+	margin-top: 80%;
+	text-align: left;
+}
+
+.prone-highlight{
+	color: white;
+	margin-top: 135%;
+	text-align: left;
+	padding-right: 10%;
+}
+
+.prone-highlight h3{
+	font-family: GothamProB;
+}
+
+.prone-highlight p{
+	font-size: 12px;
+}
+
+.product-holder h3,h5{
+	font-size: 18px;
+}
+
 .topmap{
 	width: 20rem; 
 	position: absolute; 
@@ -175,7 +229,7 @@ body {
 	color: #fff;
 }
 
-.description button:h1over {
+.description button:hover {
 	border: 1px solid #fff;
 	background: #fff;
 	color: #000;
@@ -287,41 +341,41 @@ body {
 }
 
 .tab {
-  overflow: hidden;
-  border: 0px solid #ccc;
-  background-color: #f1f1f1;
+	overflow: hidden;
+	border: 0px solid #ccc;
+	background-color: #f1f1f1;
 }
 
 .tab button {
-  background-color: #3e3636;
-  color: #fff;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-  width: 25%;
+	background-color: #3e3636;
+	color: #fff;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	width: 25%;
 }
 
 .tab button:hover {
-  background-color: #ddd;
+	background-color: #ddd;
 }
 
 .tab button.active {
-  background-color: #fff;
-  color: #3e3636;
-  font-family: GothamProB;
+	background-color: #fff;
+	color: #3e3636;
+	font-family: GothamProB;
 }
 
 .tabcontent {
-  display: none;
-  padding: 15%;
-  background-color: #fff;
-  border: 0px solid #ccc;
-  border-top: none;
-  text-align: center;
+	display: none;
+	padding: 15%;
+	background-color: #fff;
+	border: 0px solid #ccc;
+	border-top: none;
+	text-align: center;
 }
 
 .tabcontent h3{
@@ -330,7 +384,7 @@ body {
 
 .carousel img{
 	object-fit: cover;
-	object-position: center; /* Center the image within the element */
+	object-position: center; 
 	max-height: 500px;
 }
 
@@ -443,4 +497,21 @@ body {
 	.imgfluid{
 		width: 25%;
 	}
+
+	.prone{
+		margin-top: 56%;
+	}
+
+	.prone-highlight{
+		margin-top: 80%;
+	}
+
+	.highlight-a{
+		display: none;
+	}
+
+	.highlight-b{
+		display: inline-block;
+	}
+
 }
