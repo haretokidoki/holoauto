@@ -152,6 +152,10 @@ body {
     margin-top: 45%;
 }
 
+.holopart-display{
+	height: 20rem;
+}
+
 .product-ban-name h3{
 	font-family: GothamProB;
 }
@@ -447,7 +451,7 @@ body {
 	padding: 40px 0;
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 600px) {
 
 	.description {
 		left: 0;
@@ -512,6 +516,10 @@ body {
 
 	.highlight-b{
 		display: inline-block;
+	}
+
+	.holopart-display{
+		height: 12rem;
 	}
 
 }
