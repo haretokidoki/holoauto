@@ -177,6 +177,13 @@ body {
 	text-align: left;
 }
 
+.prone-hl{
+	color: white;
+	font-family: GothamProB;
+	margin-top: 80%;
+	text-align: left;
+}
+
 .prone-highlight{
 	color: white;
 	margin-top: 135%;
@@ -503,7 +510,11 @@ body {
 	}
 
 	.prone{
-		margin-top: 52%;
+		margin-top: 86%;
+	}
+
+	.prone-hl{
+		margin-top: 50%;
 	}
 
 	.prone-highlight{
@@ -519,7 +530,7 @@ body {
 	}
 
 	.holopart-display{
-		height: 12rem;
+		height: 15rem;
 	}
 
 }
